@@ -1,0 +1,88 @@
+{
+  "version": "v2.0",
+  "date": "2026-11-17",
+  "categories": 18,
+  "rules": 75,
+  "sections": 450,
+  "examples": 150,
+  "rule_source_evidence_rows": 336,
+  "unique_sources": 99,
+  "unique_law_articles": 53,
+  "reviewed_rule_rows": 75,
+  "fixed_findings": 10,
+  "checks": [
+    {
+      "check": "编号与分类保持一致",
+      "passed": true,
+      "evidence": "18类、75个唯一编号"
+    },
+    {
+      "check": "六段内容完整",
+      "passed": true,
+      "evidence": "75×6=450个非空段落；另有实质审查台账"
+    },
+    {
+      "check": "规则场景可定位",
+      "passed": true,
+      "evidence": "每条至少两个入口、核验要点、证据和处理链"
+    },
+    {
+      "check": "样例一一对应",
+      "passed": true,
+      "evidence": "75正例+75反例，均标为构造情境"
+    },
+    {
+      "check": "样例去重",
+      "passed": true,
+      "evidence": "150条情境内容互异"
+    },
+    {
+      "check": "来源有效且可追溯",
+      "passed": true,
+      "evidence": "全部引用对应已成功抽取正文；17项待核验未作独立证据"
+    },
+    {
+      "check": "条款可精确定位",
+      "passed": true,
+      "evidence": "53个不同条款定位及全文"
+    },
+    {
+      "check": "法规施行日期检查",
+      "passed": true,
+      "evidence": "所用补充规范均记录施行日期；未引用尚未施行条款为当前义务"
+    },
+    {
+      "check": "处理类型覆盖",
+      "passed": true,
+      "evidence": "内容、位置/受众、标识/资质及功能流程分别表达"
+    },
+    {
+      "check": "特殊边界回归",
+      "passed": true,
+      "evidence": "标识日志范围、六类标签选项、正常负面表达"
+    },
+    {
+      "check": "逐条评审台账完整",
+      "passed": true,
+      "evidence": "每条记录依据、证据、场景、样例、处置、边界六项及结论"
+    },
+    {
+      "check": "问题整改闭环",
+      "passed": true,
+      "evidence": "10项文档问题已修正；线上待验不伪记关闭"
+    },
+    {
+      "check": "交付文件重开与内容一致性",
+      "passed": true,
+      "evidence": "工作簿重开核对75/450/150/75行；Word重开核对全部编号与样例；JSON回读75条"
+    }
+  ],
+  "document_acceptance": "通过（作者自评与结构验收）",
+  "independent_review": "未实施",
+  "live_platform_acceptance": "未实施",
+  "recent_network_checks": {
+    "G07": "成功",
+    "G09": "HTTP 403；采用已存档官方正文",
+    "S0024": "HTTP 403；采用已存档官方正文"
+  }
+}

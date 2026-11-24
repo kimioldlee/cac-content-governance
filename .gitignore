@@ -1,0 +1,13 @@
+# Local and generated runtime files
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Large scrape snapshots are retained as GitHub Actions artifacts
+work/html/
+work/lists/
+
+# Temporary editor files
+*.tmp
+*.swp

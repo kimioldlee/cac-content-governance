@@ -1,0 +1,22 @@
+{
+  "research_date": "2026-11-17",
+  "column_records": 704,
+  "unique_column_pages": 703,
+  "column_page_count": 37,
+  "article_text_ok": 686,
+  "article_text_needs_review": 17,
+  "screening": {
+    "治理材料": 244,
+    "非治理材料排除": 413,
+    "相邻领域排除": 5,
+    "背景与解读": 24,
+    "待核验": 17
+  },
+  "categories": 18,
+  "rules": 75,
+  "examples": 36,
+  "rule_source_links": 216,
+  "directly_cited_sources": 99,
+  "supplementary_norms": 9,
+  "checks": "passed"
+}
